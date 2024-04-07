@@ -5,10 +5,9 @@ function VERT () {
 }
 radio.onReceivedString(function (receivedString) {
     if (receivedString == "vert") {
-        ORANGE()
+        VERT()
     }
     basic.pause(2000)
-    VERT()
     radio.sendString("GO")
     basic.pause(5000)
     ORANGE()
